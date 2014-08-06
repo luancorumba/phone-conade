@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html ng-app="application">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>CONADE 2014</title>
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="assets/css/pricing.css" rel="stylesheet">
+	<!-- !important THIS STYLE CSS ON BOTTOM OF STYLEs LIST-->
+	<link href="assets/css/style.css" rel="stylesheet">
+	<!-- !important THIS STYLE CSS ON BOTTOM OF STYLEs LIST-->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/flipclock.css" rel="stylesheet" type="text/css" />
+	<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--START MAIN-WRAPPER-->
+	<div class="main-wrapper">
+		<!--START MAIN-WRAPPER-->
+
+		<!-- TOP SECTION-->
+		<section class="headertop needhead" id="header-section">
+
+			<!-- ################-->
+			<!-- START TOP MENU -->
+			<!-- ################-->
+			<nav class="nav-top">
+				<div class="navbar navbar-scroll navbar-fixed-top" id="topnavbar">
+					<!-- navbar-fixed-top -->
+					<div class="navbar-inner" id="navbartop">
+						<div class="container">
+							<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							    <span class="icon-bar"></span>
+							    <span class="icon-bar"></span>
+							    <span class="icon-bar"></span>
+							</button>
+							<div class="brand" data-toggle="collapse" data-target=".nav-collapse">
+								<span>Menu</span>
+							</div>
+								<nav class="nav-collapse collapse">
+									<ul class="nav" id="nav" ng-controller="HomeController">
+										<li ng-class="{ active: isActive('/view0') }"><a href="#/view0">Home</a></li>
+										<li ng-class="{ active: isActive('/view1') }"><a href="#/view1">Shop</a></li>
+										<li ng-class="{ active: isActive('/view2') }"><a href="#/view2">Partners</a></li>
+										<li ng-class="{ active: isActive('/view3') }"><a href="#/view3">Checklist</a></li>
+										<li ng-class="{ active: isActive('/view4') }"><a href="#/view4">Local</a></li>
+										<li ng-class="{ active: isActive('/view5') }"><a href="#/view5">Gossipbox</a></li>
+										<li ng-class="{ active: isActive('/view8') }"><a href="#/view8">Match Mania</a></li>
+									</ul>
+								</nav>
+						</div>
+					</div>
+				</div>
+
+				<!-- ################-->
+				<!-- END TOP MENU -->
+				<!-- ################-->
+			</nav>
+			<!-- END HEADER headertop NAV -->
+
+
+			<!-- HEADER MARKETING SLOGAN-->
+			<header class="container">
+				<div class="row-fluid">
+					<div class="hero-unit text-center">
+						<!--LOGO-->
+						<div class="main_logo">
+							<img src="assets/img/logo_md.png" alt="logo" />
+						</div>
+						<!--/ LOGO-->
+					</div>
+					<!-- / HERO UNIT-->
+				</div>
+				<!-- / HERO WRAP-->
+			</header>
+			<!-- / HEADER MARKETING SLOGAN container-->
+		</section>
+		<div ng-controller="HomeController">
+        <div ng-view></div>
+		</div>
+		</div>
+
+	<script src="lib/jx.min.js"></script>
+	<script src="assets/js/jquery.js" type="text/javascript"></script>
+	<script src="assets/js/google-code-prettify/prettify.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-transition.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-alert.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-modal.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-dropdown.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-scrollspy.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-tab.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-tooltip.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-popover.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-button.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-collapse.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-carousel.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-typeahead.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-affix.js" type="text/javascript"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+	<script src="assets/js/application.js" type="text/javascript"></script>
+
+	<script src="assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.timeago.js" type="text/javascript"></script>
+
+	<script src="assets/js/jquery.fitvids.min.js" type="text/javascript"></script>
+
+	<!-- PARALLAX PLUGIN -->
+	<script type="text/javascript" src="assets/js/jquery.localscroll-1.2.7-min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.inview.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<!-- PARALLAX PLUGIN -->
+
+	<!-- gMap PLUGIN -->
+	<script type="text/javascript" src="assets/js/jquery.gmap.js"></script>
+	<!-- gMap PLUGIN -->
+
+	<!-- AngularJS -->
+	<script src="assets/js/angular.min.js "></script>
+	<script src="assets/js/angular-route.min.js "></script>
+	<script src="assets/js/angular-animate.min.js "></script>
+	<script src="assets/js/ngStorage.js "></script>
+	<!-- AngularJS -->
+	
+	<script src="assets/js/custom.js" type="text/javascript"></script>
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+		app.initialize();
+		var conade = angular.module('application', ['ngRoute','ngAnimate','ngStorage']).config(['$routeProvider', function($routeProvider) {
+        $routeProvider.when('/view0', {templateUrl: 'partials/home.html'});
+        $routeProvider.when('/view1', {templateUrl: 'partials/shop.html'});
+        $routeProvider.when('/view2', {templateUrl: 'partials/partners.html'});
+        $routeProvider.when('/view3', {templateUrl: 'partials/checklist.html'});
+        $routeProvider.when('/view4', {templateUrl: 'partials/local.html', controller: 'gmapController'});
+        $routeProvider.when('/view5', {templateUrl: 'partials/gossipbox.html', controller: 'gossipController'});
+        $routeProvider.when('/view6', {templateUrl: 'partials/gossip_sended.html'});
+        $routeProvider.when('/view7', {templateUrl: 'partials/gossip_error.html'});
+        $routeProvider.when('/view8', {templateUrl: 'partials/drlove.html', controller: 'loveController'});
+        $routeProvider.when('/view9', {templateUrl: 'partials/login.html', controller: 'loveController'});
+        $routeProvider.when('/view10', {templateUrl: 'partials/login_confirmation.html', controller: 'loveController'});
+        $routeProvider.when('/view11', {templateUrl: 'partials/gameshark.html', controller: 'loveController'});
+        $routeProvider.otherwise({redirectTo: '/view8'});
+  		}]);
+		conade.controller('HomeController', function($scope, $location){
+			$scope.isActive = function (viewLocation) {
+				var active = (viewLocation === $location.path());
+				return active;
+			};
+		});
+		conade.controller('gossipController', ['$scope','$http','$location', function($scope, $http, $location){
+			var url = 'http://localhost:3000/api/gossip/';
+			$scope.sendGossip = function() {
+				$http({method: 'POST', url: url, data: $scope.gossip}).success(function(data, status) {
+					$scope.status = status;
+					$scope.data = data;
+					$location.path('/view6');
+				}).error(function(data, status) {
+          		$scope.data = data || "Request failed";
+          		$scope.status = status;
+					$location.path('/view7');
+      		});
+			};
+		}]);
+		conade.controller('loveController', function($scope, $http, $localStorage, $location) {
+			var urlRoot = 'http://localhost:3000/';
+			var url = 'http://localhost:3000/api/love/';
+			$scope.flirt = {};
+			$scope.login_msg = 'Informe a senha';
+			$scope.love = function() {
+				$http({method: 'POST', url: url+'feeling/L', data:{'user':$localStorage.user.pic,'flirt':$scope.flirt.pic}}).success(function(data, status) {
+					$scope.next();
+					$scope.listing();
+				}).error(function(data, status) {
+          		//$scope.data = data || "Request failed";
+      		});
+			};
+			$scope.hate = function() {
+				$http({method: 'POST', url: url+'feeling/H', data:{'user':$localStorage.user.pic,'flirt':$scope.flirt.pic}}).success(function(data, status) {
+					$scope.next();
+					$scope.listing();
+				}).error(function(data, status) {
+          		//$scope.data = data || "Request failed";
+      		});
+			};
+			$scope.next = function() {
+				$http({method: 'GET', url: url+$localStorage.user.interest+'/'+$localStorage.user.pic}).success(function(data, status) {
+					if(data){
+						$scope.flirt = data;
+					} else {
+						$scope.next();
+					}
+				}).error(function(data, status) {
+          		//$scope.data = data || "Request failed";
+      		});
+			};
+			$scope.listing = function() {
+				$http({method: 'POST', url: url+'list/'+$localStorage.user.pic}).success(function(data, status) {
+					$scope.matches = data;
+				}).error(function(data, status) {
+          		//$scope.data = data || "Request failed";
+      		});
+			};
+			$scope.login = function() {
+				$http({method: 'POST', url: url+'login/pwd/', data:{'login':$scope.pwd}}).success(function(data, status) {
+					$localStorage.user = data;
+					$location.path('/view10');
+				}).error(function(data, status) {
+					if( status == 403) {
+						$scope.login_msg = 'Senha incorreta';
+					} else {
+						$scope.login_msg = 'Aplicativo desabilidado ou conexão inexistente';
+					}
+      		});
+			};
+			$scope.update = function() {
+				$http({method: 'POST', url: url+'login/data/', data:{'user':$scope.user}}).success(function(data, status) {
+					$localStorage.user = data;
+					$location.path('/view8');
+				}).error(function(data, status) {
+          		//$scope.data = data || "Request failed";
+      		});
+			};
+			$scope.logout = function() {
+				$localStorage.$reset();
+				$location.path('/view9');
+			};
+			$scope.search = function() {
+				$http({method: 'POST', url: url+'search/', data:$scope.shark}).success(function(data, status) {
+					$scope.applys = data;
+				}).error(function(data, status) {
+          		//$scope.data = data || "Request failed";
+      		});
+			};
+			$scope.initConfirmation = function() {
+				$scope.user = $localStorage.user;
+				$scope.interest = 'B';
+			};
+			$scope.initLove = function(){
+				if($localStorage.user && $localStorage.user.interest){
+					$scope.next();
+				} else {
+					$location.path('/view9');
+				}
+			};
+		});
+		conade.controller('gmapController', function($scope){
+			jQuery('#map').gMap({
+				latitude: -23.567504,
+				longitude: -46.054909,
+				panControl: true,
+				zoomControl: true,
+				zoomControlOptions: {
+					style: google.maps.ZoomControlStyle.SMALL
+				},
+				mapTypeControl: true,
+				scaleControl: true,
+				streetViewControl: false,
+				overviewMapControl: true,
+				scrollwheel: true,
+				icon: {
+					image: "http://www.google.com/mapfiles/marker.png",
+					shadow: "http://www.google.com/mapfiles/shadow50.png",
+					iconsize: [20, 34],
+					shadowsize: [37, 34],
+					iconanchor: [9, 34],
+					shadowanchor: [19, 34]
+				},
+				zoom:9,
+				markers: [
+					{ 'latitude':-23.567504,'longitude':-46.054909,}
+				],
+			}); 
+		});
+	</script>
+	</body>
+</html>

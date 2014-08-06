@@ -1,0 +1,50 @@
+		<section id="news-section" class="section-2">
+			<div class="container">
+				<div class="row">
+					<!-- VIDEO  HEADER -->
+					<div class="text-center">
+						<header>
+							<div class="span12 page-header">
+								<h3><span class="white">Meus dados</span></h3>
+							</div>
+						</header>
+						<!-- / VIDEO SECTION HEADER-->
+					</div>
+					<!-- /text center-->
+				</div>
+				<!--/ROW-->
+			</div>
+			<!--/CONTAINER-->
+
+			<div class="container">
+				<div class="row-fluid" ng-init="initConfirmation()">
+					<!-- SLIDER SIDE -->
+					<!-- PORTFOLIO ASIDE -->
+					<div class="span12">
+						<!-- TITLE -->
+						<!-- DEVIDER LINE -->
+						<div class="no-color-line-no-border3"></div>
+						<fieldset>
+							<div class="text-center">
+								<img src="{{ urlRoot }}{{ user.pic }}.jpg" class="img-circle" style="width: 50%"/>
+								<br/><br/><br/>
+							</div>
+							<label class="control-label" for="sex">Eu sou:</label>
+							<select name="sex" ng-model="user.sex" id="sex" class="input-block-level">
+								<option value="M">Homen</option>
+								<option value="F">Mulher</option>
+							</select>
+							<label class="control-label" for="interest">Me interesso em:</label>
+							<select name="interest" ng-model="user.interest" id="interest" class="input-block-level">
+								<option value="M">Meninos</option>
+								<option value="F">Meninas</option>
+								<option value="B">Ambos</option>
+							</select>
+							<button class="btn btn-info btn-block btn-large" ng-click="update()"><i class="icon icon-heart icon-white"></i> Let's Love!</button>
+						</fieldset>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio-section" class="section-2">
+		</section>

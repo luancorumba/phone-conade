@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>CONADE 2014</title>
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="assets/css/pricing.css" rel="stylesheet">
+	<!-- !important THIS STYLE CSS ON BOTTOM OF STYLEs LIST-->
+	<link href="assets/css/style.css" rel="stylesheet">
+	<!-- !important THIS STYLE CSS ON BOTTOM OF STYLEs LIST-->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/flipclock.css" rel="stylesheet" type="text/css" />
+	<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--START MAIN-WRAPPER-->
+	<div class="main-wrapper">
+		<!--START MAIN-WRAPPER-->
+
+		<!-- TOP SECTION-->
+		<section class="headertop needhead" id="header-section">
+
+			<!-- ################-->
+			<!-- START TOP MENU -->
+			<!-- ################-->
+			<nav class="nav-top">
+				<div class="navbar navbar-scroll navbar-fixed-top" id="topnavbar">
+					<!-- navbar-fixed-top -->
+					<div class="navbar-inner" id="navbartop">
+						<div class="container">
+							<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							    <span class="icon-bar"></span>
+							    <span class="icon-bar"></span>
+							    <span class="icon-bar"></span>
+							</button>
+							<a class="brand" href="index.html">
+								<span>Menu</span>
+							</a>
+								<nav class="nav-collapse collapse">
+									<ul class="nav" id="nav">
+										<li class="active"><a href="index.html">Home</a> 
+										</li>
+										<li><a href="shop.html">Shop</a> 
+										</li>
+										<li><a href="partners.html">Partners</a> 
+										</li>
+										<li><a href="checklist.html">Checklist</a> 
+										</li>
+										<li><a href="local.html">Local</a> 
+										</li>
+									</ul>
+								</nav>
+						</div>
+					</div>
+				</div>
+
+				<!-- ################-->
+				<!-- END TOP MENU -->
+				<!-- ################-->
+			</nav>
+			<!-- END HEADER headertop NAV -->
+
+
+			<!-- HEADER MARKETING SLOGAN-->
+			<header class="container">
+				<div class="row-fluid">
+					<div class="hero-unit text-center">
+						<!--LOGO-->
+						<div class="main_logo">
+							<img src="assets/img/logo_md.png" alt="logo" />
+						</div>
+						<!--/ LOGO-->
+					</div>
+					<!-- / HERO UNIT-->
+				</div>
+				<!-- / HERO WRAP-->
+			</header>
+			<!-- / HEADER MARKETING SLOGAN container-->
+
+		</section>
+		<!--/ TOP SECTION-->
+
+		<section id="news-section" class="section-2">
+			<div class="container">
+				<div class="row">
+					<!-- PORTFOLIO  HEADER -->
+					<div class="text-center">
+						<header>
+							<div class="span12 text-center page-header">
+
+								<h3>
+								<span class="white">
+									CHECKLIST
+								</span>
+								</h3>
+
+							</div>
+
+
+						</header>
+						<!-- / PORTFOLIO SECTION HEADER-->
+					</div>
+					<!-- /text center-->
+				</div>
+				<!--/ROW-->
+			</div>
+			<!--/CONTAINER-->
+			<div class="container">
+				<div class="row">
+					<div class="span8 offset2">
+						<ul>
+							<div class="text-large"><input class="double" type="checkbox"/> Bed Sheet</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Pillow</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Thick Blanket</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Coat</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Towels</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Soap</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Toothbrush</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Toothpaste</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Deodorant</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Shampoo</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Conditionator</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Mug</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Umbrella</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Medication</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Locker</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Confortable Clothes</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Pen and Paper</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Good Mood</div>
+							<div class="text-large"><input class="double" type="checkbox"/> Genitals</div>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- END: SECTION -->
+		</div>
+	<script src="assets/js/jquery.js" type="text/javascript"></script>
+	<script src="assets/js/google-code-prettify/prettify.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-transition.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-alert.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-modal.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-dropdown.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-scrollspy.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-tab.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-tooltip.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-popover.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-button.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-collapse.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-carousel.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-typeahead.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-affix.js" type="text/javascript"></script>
+	<script src="assets/js/flipclock.js" type="text/javascript"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+	<script src="assets/js/application.js" type="text/javascript"></script>
+
+	<script src="assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="assets/js/tweetable.jquery.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.timeago.js" type="text/javascript"></script>
+
+	<script src="assets/js/jquery.fitvids.min.js" type="text/javascript"></script>
+	<script src="assets/js/isotope.pkgd.min.js" type="text/javascript"></script>
+
+	<!-- PARALLAX PLUGIN -->
+	<script type="text/javascript" src="assets/js/jquery.localscroll-1.2.7-min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.inview.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<!-- PARALLAX PLUGIN -->
+
+	<!-- gMap PLUGIN -->
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="assets/js/jquery.gmap.js"></script>
+	<!-- gMap PLUGIN -->
+	<script src="assets/js/custom.js" type="text/javascript"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
